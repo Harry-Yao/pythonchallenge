@@ -8,8 +8,8 @@ text = ''
 i = 0
 while i < img.width:
     pix = img.getpixel((i, 47))
+    print(pix)
     i += 7
-
 
 text2 = "105, 110, 116, 101, 103, 114, 105, 116, 121"
 for i in text2.split(','):
